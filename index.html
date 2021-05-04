@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Donation site</h1>
+    </header>
+    <main>
+        <div id='left'>
+            <form id='form'>
+             <label for="donorname">Donor Name</label>
+             
+             <input type="text" name="donorname" id="donorname">
+             <br>
+             <label for="donoramount">Amount</label>
+             <select name="donoramount" id="donoramount">
+                 <option value="100JD">100 JD</option>
+                 <option value="500JD">500 JD</option>
+                 <option value="1000JD">1000 JD</option>
+             </select>
+             <br>
+             <input type="submit" value="submit" id='submit'>
+            </form>
+        </div>
+        <div id='right'>
+            <table id='table'>
+                <tr>
+                <th>Donor Name</th>
+                <th>Donor Age</th>
+                <th>Amount</th>
+                </tr>
+            </table>
+            <div id='total'></div>
+        </div>
+    </main>
+    <footer>
+        <p> &COPY;</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
